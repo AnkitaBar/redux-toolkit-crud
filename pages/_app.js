@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return(
     <Provider store={store}>
     <Wrapper>
-    <Component {...pageProps} />;
+    <Component {...pageProps} />
     </Wrapper>
    
     </Provider>
